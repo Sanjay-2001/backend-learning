@@ -24,6 +24,8 @@ app.use(logRequest);
 
 app.use(passport.initialize());
 
+// git test
+
 app.get(
   "/",
   passport.authenticate("local", { session: false }),
